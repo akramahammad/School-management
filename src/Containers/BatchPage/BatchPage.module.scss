@@ -1,0 +1,37 @@
+.None{
+    display: none;
+}
+
+.Main{
+    margin:7% 5%;
+    width:80%;
+    height: 62vh;
+    box-sizing: border-box;
+    .Form>div{
+        display: flex;
+        width:100%;
+        box-sizing: border-box;
+        margin-bottom: 50px;
+    }
+
+    p{
+        font-weight: 500;
+        font-size: 16px;
+        margin: 10px 0;
+    }
+}
+.Button{
+    width: 30%;
+    height: 40px;
+    margin: 0 10%;
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: #20b883;
+    color: #fff;
+    outline: none;
+    &:hover{
+        background-color: #fff;
+        color:#20b883;
+        border-color:#20b883;
+    }
+}

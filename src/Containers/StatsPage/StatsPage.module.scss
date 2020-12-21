@@ -1,0 +1,47 @@
+$green:#20b883;
+
+.Main{
+    margin:7% 5%;
+    width:80%;
+    height: 85vh;
+    box-sizing: border-box;
+}
+.GraphSection{
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.None{
+    display: none;
+}
+
+.Form>div{
+    display: flex;
+    width:100%;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+
+p{
+    font-weight: 500;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.Button{
+width: 30%;
+height: 40px;
+margin: 0 10%;
+cursor: pointer;
+border-radius: 6px;
+border-color:$green !important;
+background-color: $green !important;
+color: #fff !important;
+outline: none;
+&:hover{
+    color: $green !important;
+    background-color: #fff !important;
+    
+}
+}

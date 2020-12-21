@@ -1,0 +1,36 @@
+$green:#20b883;
+
+.Logo{
+    margin-right: 5%;
+}
+header{
+    width: 100%;
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 5;
+    height: 100px;
+    background-color: #fff !important;
+    box-shadow: 0 2px 4px #ccc;
+    a{
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.85);
+        font-size: 25px;
+        font-weight: 600;
+        &:hover{
+         cursor: pointer;   
+        }
+    }
+}
+.MenuItems{
+    font-size: 18px;
+    margin-left: 3%;
+    &:hover{
+        color: #20b883;
+    }
+}
+.Active{
+    border-bottom: 3px solid $green;
+    color: $green;
+}

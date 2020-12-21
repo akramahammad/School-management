@@ -1,0 +1,11 @@
+.None{
+    display: none;
+}
+
+.Dropdown{
+    width: 25%;
+    margin: 0 10px;
+    &>div{
+        width: 100%;
+    }
+}

@@ -1,0 +1,21 @@
+$background:#F6F7FB !important;
+
+body{
+    background-color: $background;
+    margin: 0;
+}
+
+button{
+    width:100%;
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: #20b883;
+    color: #fff;
+    outline: none;
+    margin-top:15px;
+    &:hover{
+        background-color: #fff;
+        color:#20b883;
+        border-color:#20b883;
+    }
+}

@@ -1,0 +1,17 @@
+$border-radius:6px;
+$green:#20b883;
+
+.Button{
+    width:100%;
+    cursor: pointer;
+    border-radius: $border-radius;
+    background-color: $green;
+    color: #fff;
+    height: 35px;
+    margin-top:15px;
+    &:hover{
+        background-color: #fff;
+        color:$green;
+        border-color:$green ;
+    }
+}
