@@ -123,6 +123,14 @@ const StatsPage=()=>{
 
             //Top 3 Scorers
             case"Top 3 Scorers":
+            if(localState.batchData[localState.selectedBatch]===undefined){
+                alert("No student found in this batch")
+                return 0;
+            }
+            else if(localState.batchData[localState.selectedBatch].students.every(student => student.marks[localState.selectedSubject]===undefined)){
+                    alert("No mark details available for any students in this batch")
+                    return 0;
+                }
 
             const SubjectScores=[];
             localState.batchData[localState.selectedBatch].students.forEach(student=>{ 
